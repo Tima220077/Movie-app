@@ -73,7 +73,7 @@ function detailsDisplay(item){
   <li class="released">Released: ${item.Released}</li>
 </ul>
 <p class = "genre"><b>Genre:</b> ${item.Genre}</p>
-  <p class = "runtime"><b>Runtime:</b> ${item.Runtime}</p>
+  
   <p class = "writer"><b>Writer:</b> ${item.Writer}</p>
   <p class = "actors"><b>Actors: </b>${item.Actors}</p>
   <p class = "plot"><b>Plot:</b> ${item.Plot}</p>
