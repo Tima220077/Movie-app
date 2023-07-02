@@ -50,7 +50,7 @@ function loadMovieDetails(){
   searchListMovies.forEach(movie =>{
     movie.addEventListener("click", async ()=>{
       resetState()
-      const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=${API_KEY}`)
+      const result = await fetch(`http://www.omdbapi.com/?s=${movie.dataset.id}&apikey=${API_KEY}`)
       //getting data with details
       const movieDetailts = await result.json()
       
